@@ -6,3 +6,4 @@
      (color-theme-solarized-dark)))
 
 (global-linum-mode)
+(setq make-backup-files nil)
