@@ -3,7 +3,9 @@
 (eval-after-load "color-theme"
   '(progn
      (color-theme-initialize)
-     (color-theme-solarized-dark)))
+     (if window-system
+        (color-theme-solarized-dark)
+	(color-theme-black))))
 
 (global-linum-mode)
 (setq make-backup-files nil)
