@@ -1,4 +1,4 @@
-dot-emacs
-=========
+.emacs.d
+========
 
-dot-emacs holds my .emacs file.
+.emacs.d holds my customization files.
