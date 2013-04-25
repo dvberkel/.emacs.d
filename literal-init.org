@@ -1,0 +1,19 @@
+#+TITLE: Emacs Configuration
+#+AUTHOR: Daan van Berkel
+#+EMAIL: daan.v.berkel.1980@gmail.com
+
+* Tabs
+Show tabs with a width of two.
+#+BEGIN_SRC emacs-lisp
+(setq tab-width 2)
+#+END_SRC
+
+The tab stop should occur at intervals of two.
+#+BEGIN_SRC emacs-lisp
+(setq tab-stop-list (number-sequence 2 200 2))
+#+END_SRC
+
+We do not want Emacs to insert real tabs, let it use spaces instead.
+#+BEGIN_SRC emacs-lisp
+(setq indent-tabs-mode nil)
+#+END_SRC
