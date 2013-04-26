@@ -17,3 +17,12 @@ We do not want Emacs to insert real tabs, let it use spaces instead.
 #+BEGIN_SRC emacs-lisp
 (setq indent-tabs-mode nil)
 #+END_SRC
+* Hooks
+** Before Save Hooks
+I personally do not like trailing whitespaces so I am adding a save
+hook that takes care of that problem.
+
+#+BEGIN_SRC emacs-lisp
+(add-hook 'before-save-hook 'delete-trailing-whitespace)
+#+END_SRC
+
