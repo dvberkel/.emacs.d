@@ -17,6 +17,23 @@ We do not want Emacs to insert real tabs, let it use spaces instead.
 #+BEGIN_SRC emacs-lisp
 (setq indent-tabs-mode nil)
 #+END_SRC
+* Autosave & Backup
+** Autosave
+I do not like the autosave functionality. Work loss is an
+indication that you should commit more often.
+#+BEGIN_SRC emacs-lisp
+(setq auto-save-default nil)
+#+END_SRC
+
+** Backup
+I am also not fond of default backup behaviour. Although the backup
+behaviour is very customizable, (see for example
+[[http://www.emacswiki.org/emacs/BackupDirectory]]) for now I will shut
+it down.
+#+BEGIN_SRC emacs-lisp
+(setq backup-inhibited t)
+#+END_SRC
+
 * Hooks
 ** Before Save Hooks
 I personally do not like trailing whitespaces so I am adding a save
@@ -25,4 +42,3 @@ hook that takes care of that problem.
 #+BEGIN_SRC emacs-lisp
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
 #+END_SRC
-
