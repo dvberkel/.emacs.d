@@ -42,3 +42,14 @@ hook that takes care of that problem.
 #+BEGIN_SRC emacs-lisp
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
 #+END_SRC
+* Requires
+** Line Numbers
+We use the excellent linum library for line numbers.
+#+BEGIN_SRC emacs-lisp
+(require 'linum)
+#+END_SRC
+
+I like line numbers to show up in my buffers at all times.
+#+BEGIN_SRC emacs-lisp
+(global-linum-mode t)
+#+END_SRC
