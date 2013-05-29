@@ -42,6 +42,15 @@ hook that takes care of that problem.
 #+BEGIN_SRC emacs-lisp
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
 #+END_SRC
+* Themes
+In order to experiment with themes the following commands are usefull.
+1. M-x load-theme. Loads a preloaded theme. Tab-completion is provided.
+2. M-x disable-theme. Reverts back to the default theme.
+
+I like a darker theme, specificially tango-dark, that comes pre-installed.
+#+BEGIN_SRC
+(load-theme 'tango-dark t)
+#+END_SRC
 * Requires
 ** Line Numbers
 We use the excellent linum library for line numbers.
