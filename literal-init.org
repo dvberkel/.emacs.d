@@ -48,7 +48,7 @@ In order to experiment with themes the following commands are usefull.
 2. M-x disable-theme. Reverts back to the default theme.
 
 I like a darker theme, specificially tango-dark, that comes pre-installed.
-#+BEGIN_SRC
+#+BEGIN_SRC emacs-lisp
 (load-theme 'tango-dark t)
 #+END_SRC
 * Requires
