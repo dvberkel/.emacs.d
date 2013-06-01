@@ -51,6 +51,22 @@ I like a darker theme, specificially tango-dark, that comes pre-installed.
 #+BEGIN_SRC emacs-lisp
 (load-theme 'tango-dark t)
 #+END_SRC
+* Org Mode
+** Babel
+We would like to evaluate various code block so we specify the
+corresponding =org-babel-load-languages= option.
+
+#+BEGIN_SRC emacs-lisp
+(org-babel-do-load-languages
+ 'org-babel-load-languages
+ '((emacs-lisp . t)
+   (perl . t)
+   (python . t)
+   (ruby . t)
+   (sh . t)
+  ))
+#+END_SRC
+
 * Requires
 ** Line Numbers
 We use the excellent linum library for line numbers.
