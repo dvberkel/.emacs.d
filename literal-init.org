@@ -60,6 +60,7 @@ corresponding =org-babel-load-languages= option.
 (org-babel-do-load-languages
  'org-babel-load-languages
  '((emacs-lisp . t)
+   (js . t)
    (perl . t)
    (python . t)
    (ruby . t)
