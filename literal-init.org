@@ -67,7 +67,6 @@ corresponding =org-babel-load-languages= option.
    (sh . t)
   ))
 #+END_SRC
-
 * Requires
 ** Line Numbers
 We use the excellent linum library for line numbers.
@@ -78,4 +77,13 @@ We use the excellent linum library for line numbers.
 I like line numbers to show up in my buffers at all times.
 #+BEGIN_SRC emacs-lisp
 (global-linum-mode t)
+#+END_SRC
+** IDO
+IDO stands for interactive do things and is a marvelous utility. It
+can greatly enhance the usability of both switch buffer and find
+files.)
+
+#+BEGIN_SRC emacs-lisp
+(require 'ido)
+(ido-mode t)
 #+END_SRC
