@@ -17,6 +17,13 @@ We do not want Emacs to insert real tabs, let it use spaces instead.
 #+BEGIN_SRC emacs-lisp
 (setq indent-tabs-mode nil)
 #+END_SRC
+* Column-number-mode
+Default the modeline does not show the column where the point
+is. That is a shame and the next command changes that.
+
+#+BEGIN_SRC emacs-lisp
+(column-number-mode t)
+#+END_SRC
 * Autosave & Backup
 ** Autosave
 I do not like the autosave functionality. Work loss is an
