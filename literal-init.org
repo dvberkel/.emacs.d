@@ -24,6 +24,23 @@ is. That is a shame and the next command changes that.
 #+BEGIN_SRC emacs-lisp
 (column-number-mode t)
 #+END_SRC
+* Moving around windows
+Moving around windows is a major pain because the only command
+available is other-window command that is bound to C-o.
+
+Windmove allows to navigate with shift-left, shift-right, shift-up
+and shift-down.
+
+#+BEGIN_SRC emacs-lisp
+(windmove-default-keybindings)
+#+END_SRC
+
+It conflicts with org-mode do so we set the org-replace-disputes-keys
+
+#+BEGIN_SRC emacs-lisp
+(org-replace-disputed-keys t)
+#+END_SRC
+
 * Autosave & Backup
 ** Autosave
 I do not like the autosave functionality. Work loss is an
