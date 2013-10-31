@@ -35,10 +35,10 @@ and shift-down.
 (windmove-default-keybindings)
 #+END_SRC
 
-It conflicts with org-mode do so we set the org-replace-disputes-keys
+It conflicts with org-mode do so we set the org-replace-disputed-keys
 
 #+BEGIN_SRC emacs-lisp
-(org-replace-disputed-keys t)
+(setq org-replace-disputed-keys t)
 #+END_SRC
 
 * Autosave & Backup
