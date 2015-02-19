@@ -1,3 +1,10 @@
 #+title: Emacs Configuration
 #+author: Daan van Berkel
 #+email: daan.v.berkel.1980@gmail.com
+
+I started using emacs because their was a discrepancy between the
+tools I used at work and at home. At the time I used a Mac at work and
+a Linux distribution at home. I used different editors and had to
+invest time to get the learn them both. It seemed wasteful. So I set
+out to learn an editor that was availble on both platform. I
+settled for [[http://www.gnu.org/software/emacs/][emacs]].
