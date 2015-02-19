@@ -7,8 +7,23 @@ I started using emacs because their was a discrepancy between the
 tools I used at work and at home. At the time I used a Mac at work and
 a Linux distribution at home. I used different editors and had to
 invest time to get the learn them both. It seemed wasteful. So I set
-out to learn an editor that was availble on both platform. I
+out to learn an editor that was available on both platform. I
 settled for [[http://www.gnu.org/software/emacs/][emacs]].
 
 #+caption: Classical learning curves for some common editors
 [[./image/learning_curves.jpg]]
+
+It takes some time to get to know emacs, and it takes a lot of time to
+get to know it well. With my growing understanding of emacs, my
+preference for structuring my emacs configuration grew as well. Below
+is an account of the phases I went through
+
+0. *Unstructured* I used vanilla emacs.
+1. *install packages*  but little to no customization.
+2. *org-mode* I went straight from no customization to customization
+   with [[http://orgmode.org/][org-mode]]. That culminated in [[https://github.com/dvberkel/.emacs.d/blob/ca3b85377c8f07cec2a70ef9012445688bc2c41b/literal-init.org][this configuration]].
+3. *org-mode* When I better understood configuration I decided to
+   split the different customization topics over [[https://github.com/dvb-industries/.emacs.d/tree/892bad8768311e5034439a045f47b041c10258de][different files]].
+4. *org-mode* Dissapointed with the disparaty I decided to start over
+   with and place all the files in a single org-file. This document it
+   the current iteration.
