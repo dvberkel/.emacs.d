@@ -24,6 +24,6 @@ is an account of the phases I went through
    with [[http://orgmode.org/][org-mode]]. That culminated in [[https://github.com/dvberkel/.emacs.d/blob/ca3b85377c8f07cec2a70ef9012445688bc2c41b/literal-init.org][this configuration]].
 3. *org-mode* When I better understood configuration I decided to
    split the different customization topics over [[https://github.com/dvb-industries/.emacs.d/tree/892bad8768311e5034439a045f47b041c10258de][different files]].
-4. *org-mode* Dissapointed with the disparaty I decided to start over
+4. *org-mode* Disappointed with the disparity I decided to start over
    with and place all the files in a single org-file. This document it
    the current iteration.
