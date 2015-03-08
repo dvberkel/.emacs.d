@@ -27,3 +27,11 @@ is an account of the phases I went through
 4. *org-mode* Disappointed with the disparity I decided to start over
    with and place all the files in a single org-file. This document it
    the current iteration.
+
+* Getting help
+One of the reasons I like emacs is that its documentation is available
+right from the editor itself. You can learn a lot just by asking
+emacs.
+
+One of the most helpfully emacs commands is =C-h ?=. It opens up the
+*Metahelp* buffer which lists the different options the =C-h= command has.
