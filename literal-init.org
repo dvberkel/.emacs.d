@@ -35,3 +35,14 @@ emacs.
 
 One of the most helpfully emacs commands is =C-h ?=. It opens up the
 *Metahelp* buffer which lists the different options the =C-h= command has.
+
+* Customization with org-mode
+[[http://orgmode.org/][org-mode]] is an emacs mode that considerably changed the way I use
+emacs. One of its features is literate programming. Literate
+programming is invented by Donald Knuth and is the practice to write
+prose as documentation for source code that is intersperced between
+the document. In a later step, you tangle document to produce the
+actual source code. This helps to keep my emacs customizations
+organized.
+
+In order to use it you need to bootstrap it in an =init.el=.
