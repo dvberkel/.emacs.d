@@ -1,4 +1,4 @@
 .emacs.d
 ========
 
-.emacs.d holds my customization files.
+`.emacs.d` holds my customization files.
